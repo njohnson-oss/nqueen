@@ -24,7 +24,7 @@ Run:
 
 - Solutions may not be unique
 - Program will not terminate if no solution exists
-- Initial queen column begins at 1
+- Initial queen column indexed at 1
 - Can quickly solve for n > 1000 on a modern consumer cpu
 
 ## Example Solution
