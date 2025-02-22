@@ -1,7 +1,11 @@
-all: main
+default: nqueen
 
-main: src/main.cpp
-	g++ src/main.cpp
+main.o: src/main.cpp
+	$(CXX) -c $(CPPFLAGS) src/main.cpp -o main.o
 
+nqueen: main.o
+	$(CXX) main.o -o nqueen
+
+.PHONY: clean
 clean:
-	rm a.out
+	rm -f nqueen main.o

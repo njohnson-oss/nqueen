@@ -2,7 +2,7 @@
 Solves the n-queen puzzle using the hill climbing algorithm. User may specify n (the board size), the number of desired solutions, and which column the queen in the first row is placed.
 
 ## Requirements
-- gnu c++ compiler
+- c++ compiler
 
 ## Compile & Run
 Compile:
@@ -14,7 +14,7 @@ make
 
 Run:
 ```
-./a.out
+./nqueen
 ```
 
 ## Info
