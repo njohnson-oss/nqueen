@@ -47,7 +47,7 @@ int main()
     cout << "Enter the number of expected solutions: ";
     cin >> numSols;
 
-    out_file << "solutions/nqueen_size_" << size << "_numsols_" << numSols << "_initcol_" << initQueenCol;
+    out_file << "nqueen_size_" << size << "_numsols_" << numSols << "_initcol_" << initQueenCol;
     ofstream fout(out_file.str());
 
     for (int i = 1; i <= numSols; i++)
